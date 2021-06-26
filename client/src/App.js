@@ -1,10 +1,16 @@
+import React from 'react';
+import Navi from './Components/Nav';
+import AddQuestion from './Components/AddQuestionForm';
 
 
 const App = () => {
     return (
-        <>
-            <h1>Hello</h1>
-        </>
+        <div>
+            <header>
+                <Navi />
+            </header>
+
+        </div>
     );
 }
 

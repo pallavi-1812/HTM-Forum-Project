@@ -1,0 +1,105 @@
+
+/*Nav bar*/
+nav {
+    display: block;
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+}
+nav ul {
+    background-color: #EAF5FD;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+ul.topnav li.topnav-right {
+    list-style: none;
+    float: right;
+}
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+ul.topnav li a:hover {
+    background-color: #826BFA;
+    color: #fff;
+}
+ul.topnav li.dropdownicon {
+    display: none;
+} 
+
+
+/*Form for adding a question*/
+
+
+.card-body {
+    background-color: #e6f2ff;
+    font-size: 18px;
+
+}
+
+.container.ques-container {
+    margin-top: 7%;
+}
+
+.ques-card {
+    padding: 20px 20px 40px;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+Button.ques-btn {
+    background-color: #A29ED1;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 1.2rem;
+}
+
+Button.ques-btn:hover {
+    background-color: #826BFA ;
+}
+
+.ques-card a.exit-btn {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    ul.topnav li.dropdownicon {
+        display: block;
+        float: right;
+    }
+    ul.topnav.responsive li.dropdownicon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    ul.topnav.responsive {
+        position: relative;
+    }
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+}
+
